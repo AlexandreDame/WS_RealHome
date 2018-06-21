@@ -1,0 +1,58 @@
+﻿#breadcrumb{
+    font-weight:bold;
+    margin-top:50px;
+}
+#breadcrumb a{
+    color:#e2574c;
+}
+#breadcrumb i{
+    font-weight:normal;
+    font-size:10px;
+    margin:0 5px;
+    color:#E6E6E6;
+}
+#breadcrumb span{
+    color:#707070;
+}
+
+h2{
+    font-size:46px;
+    margin:20px 0 0 0;
+    color:#242424;
+}
+
+iframe {
+    border:0;
+    width:100%;
+    height:440px;
+    margin:50px 0;
+}
+#section_contact{
+    padding-bottom:40px;
+}
+#section_contact h3{
+    font-family:'Raleway';
+    font-weight:bold;
+    color:#242424;
+    font-size:36px;
+    margin-bottom:30px;
+}
+#coordonnees{
+    color:#707070;
+    font-family:'PlayFair Display';
+    font-size:16px;
+}
+#section_contact .row{
+    margin-bottom:30px;
+}
+#section_contact .form-control{
+    padding:25px;
+}
+#section_contact textarea{
+    height:120px;
+}
+@media screen and (max-width:768px){
+    #section_contact .row div:first-child{
+        margin-bottom:30px;
+    }
+}

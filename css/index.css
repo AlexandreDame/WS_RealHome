@@ -1,0 +1,187 @@
+﻿/*sections*/
+section {
+    padding: 80px 0;
+}
+@media screen and (max-width:992px) {
+    section {
+        padding: 50px 0;
+    }
+}
+
+/*carousel*/
+#carousel img{
+    width:100%;
+}
+#carousel .carousel-caption {
+    padding-bottom:0px;
+}
+#carousel h3 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 48px;
+}
+#carousel .carousel-caption p{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:20px;
+}
+#carousel .prix {
+    font-family: 'Open sans';
+    font-size: 36px;
+    margin:0 40px;
+}
+#carousel .carousel-caption a {
+    font-family: 'Open sans';
+    text-transform: uppercase;
+    font-size: 16px;
+    background: rgba(256,256,256,0.2);
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0 35px;
+}
+#carousel .carousel-indicators {
+    bottom:35%;
+}
+#carousel_mobile {
+    height: 250px;
+    overflow: hidden;
+}
+/*fin carousel*/
+
+/*1ère section - texte*/
+#section_texte h2{
+    margin-top:0px;
+    font-family:'raleway';
+    font-size:36px;
+    font-weight:bold;
+}
+    #section_texte h2::after {
+        border-bottom: 3px solid #000;
+        width: 25px;
+        content: '';
+        display: block;
+        position: absolute;
+        right: 15px;
+        margin-top: 25px;
+    } 
+#section_texte p {
+    font-family: 'PlayFair Display';
+    color: #707070;
+    font-size: 16px;
+    margin:0 10px;
+}
+
+@media screen and (max-width:992px){
+    #section_texte {
+        border-top:1px solid #ddd;
+    }
+    #section_texte h2{text-align:center;margin-bottom:20px;}
+        #section_texte h2::after {
+            display: none;
+        }
+    #section_texte p{text-align:justify;}
+}
+/*Fin 1ère section*/
+
+/*Section 4 icones*/
+#section_icones {
+    background-color: #fafafa;
+    color: #000;
+    font-size: 16px;
+    font-weight:bold;
+    text-align:center;
+}
+#section_icones .fa {font-size:24px;}
+#section_icones h4{font-family:'Raleway';font-weight:bold;font-size:20px;margin:15px 0 5px 0;}
+#section_icones p{font-weight:normal;font-family:'PlayFair Display';font-size:14px;color:#707070;padding:10px;}
+/*fin section 4 icones*/
+
+
+/*Section des biens à vendre*/
+#section_biens{
+    background-color:#f6f6f6;
+}
+    #section_biens h2{font-size:46px;}
+    #section_biens h2::after {
+        display: block;
+        margin: auto;
+        width: 100px;
+        border-bottom: 2px solid #e2574c;
+        content: '';
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+#section_biens .container > p{
+    max-width:550px;
+    margin:auto;
+    color:#707070;
+    font-size:16px;
+    padding:10px;
+}
+#section_biens .row{
+    margin-top:30px;
+}
+#section_biens .bien{
+    background-color:#fff;
+    border:1px solid #e6e6e6;
+    padding:0;
+    text-align:center;
+}
+#section_biens .bien img{width:100%;margin-bottom:15px;}
+#section_biens .bien h3{font-weight:bold;font-size:22px;}
+#section_biens .bien h4{font-family:'PlayFair Display';font-size:15px;color:#707070;}
+#section_biens .bien .prix{font-family:'Open sans';color:#e2574c;font-weight:bold;font-size:16px;margin-top:20px;display:block}
+#section_biens .bien ul{
+    border-top:1px solid #e6e6e6;
+    margin-top:30px;
+    margin-bottom:0px;
+    text-align:center;
+    padding:12px;
+}
+#section_biens .bien li{
+    display:inline-block;
+    color:#707070;
+    font-size:13px;
+    font-weight:bold;
+}
+    #section_biens .bien li:nth-child(2)::before,#section_biens .bien li:nth-child(2)::after {
+        content: '';
+        margin: 0 10px;
+        background-color: #e6e6e6;
+        border-radius: 7px;
+        height: 7px;
+        width: 7px;
+        display: inline-block;
+    }
+#section_biens button{
+    margin-top:20px;
+}
+/*Fin section ds biens*/
+
+
+
+/*Section partenaires*/
+#section_partenaires .container {
+    display: flex;
+    flex-direction: row;
+}
+#section_partenaires div{
+    flex:1;
+}
+#section_partenaires img{
+    width:100%;
+}
+@media screen and (max-width:768px){
+    #section_partenaires .container{
+        flex-direction:column;
+        align-items:center;
+    }
+    #section_partenaires img {
+        width: 100%;
+        max-width:200px;
+    }
+}  
+/*Fin section partenaires*/
